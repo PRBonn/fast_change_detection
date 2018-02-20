@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>fast_change_detection</name>
+  <version>0.0.1</version>
+  <description>The fast_change_detection package</description>
+
+  <maintainer email="emanuele.palazzolo@uni-bonn.de">Emanuele Palazzolo</maintainer>
+
+  <license>FreeBSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>glow</build_depend>
+  <run_depend>glow</run_depend>
+
+  <export>
+        <git_url target="glow" url="https://github.com/jbehley/glow.git" branch="v0.1"/>
+
+  </export>
+</package>

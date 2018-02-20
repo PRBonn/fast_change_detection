@@ -1,0 +1,36 @@
+# specify the image for docker to run
+image: gitlab.ipb.uni-bonn.de:4567/global/docker-images:ipb_opencv
+
+build:
+  script:
+  # set proper bash
+  - export SHELL=/bin/bash
+  # install any external software you may need
+  - apt-get update -yq
+  - apt-get install -yq rsync python-pip libopencv-dev qtbase5-dev libglew-dev
+  - pip install catkin_tools catkin_tools_fetch --upgrade
+  # update submodules
+  - git submodule update --init
+  # set ssh key.
+  - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+  - eval $(ssh-agent -s)
+  - ssh-add <(echo "$SSH_PRIVATE_KEY")
+  - mkdir -p ~/.ssh
+  - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+  # we create a directory and implicitly initialize a catkin workspace there
+  - mkdir all_pkgs
+  - rsync -ar --exclude={all_pkgs} . all_pkgs
+  - rm -r src/   
+  - mkdir src
+  - cd src
+  - git clone https://github.com/ros/catkin.git
+  - cd ..
+  - catkin build --no-status
+  - mv all_pkgs src/
+  - catkin deps fetch
+  - catkin build -j2 --no-status --verbose
+  
+  tags:
+  - docker
+  except:
+  - tags

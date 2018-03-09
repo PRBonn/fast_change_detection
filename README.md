@@ -4,7 +4,11 @@
 
 The program allows to identify, in real-time, changes on a 3D model from a sequence of images.
 
-The idea is to first detect inconsistencies between pairs of images by reprojecting an image onto another one by passing through the 3D model. Ambiguities about possible inconsistencies resulting from this process are then resolved by combining multiple images. Finally, the 3D location of the change is estimated by projecting in 3D these inconsistencies. 
+The idea is to first detect inconsistencies between pairs of images by reprojecting an image onto another one by passing through the 3D model. Ambiguities about possible inconsistencies resulting from this process are then resolved by combining multiple images. Finally, the 3D location of the change is estimated by projecting in 3D these inconsistencies.
+
+Check out the video:
+
+[![Fast Change Detection Video](http://img.youtube.com/vi/DEkOYf4Zzh4/0.jpg)](https://www.youtube.com/watch?v=DEkOYf4Zzh4&feature=youtu.be "Fast Change Detection Video")
 
 For further details, see the paper ["Fast Image-Based Geometric Change Detection Given a 3D Model"](http://www.ipb.uni-bonn.de/pdfs/palazzolo2018icra.pdf).
 

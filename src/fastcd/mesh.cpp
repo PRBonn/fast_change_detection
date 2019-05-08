@@ -1,4 +1,4 @@
-// Copyright 2017 Jens Behley (jens.behley@igg.uni-bonn.de)
+// Copyright 2017 Jens Behley (jens.behley@igg.uni-bonn.de), Cyrill Stachniss, University of Bonn
 #include "fastcd/mesh.h"
 
 #include <glow/ScopedBinder.h>

@@ -1,4 +1,4 @@
-// Copyright 2017 Emanuele Palazzolo (emanuele.palazzolo@uni-bonn.de)
+// Copyright 2017 Emanuele Palazzolo (emanuele.palazzolo@uni-bonn.de), Cyrill Stachniss, University of Bonn
 #include "fastcd/camera.h"
 #include <glow/glutil.h>
 #include <boost/foreach.hpp>

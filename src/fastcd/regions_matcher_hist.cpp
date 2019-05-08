@@ -1,4 +1,4 @@
-// Copyright 2017 Emanuele Palazzolo (emanuele.palazzolo@uni-bonn.de)
+// Copyright 2017 Emanuele Palazzolo (emanuele.palazzolo@uni-bonn.de), Cyrill Stachniss, University of Bonn
 #include "fastcd/regions_matcher_hist.h"
 #include <algorithm>
 #include <vector>

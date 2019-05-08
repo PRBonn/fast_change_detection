@@ -1,4 +1,4 @@
-// Copyright 2017 Emanuele Palazzolo (emanuele.palazzolo@uni-bonn.de)
+// Copyright 2017 Emanuele Palazzolo (emanuele.palazzolo@uni-bonn.de), Cyrill Stachniss, University of Bonn
 #include <utility>
 #include <glow/glutil.h>
 #include "fastcd/change_detector.h"

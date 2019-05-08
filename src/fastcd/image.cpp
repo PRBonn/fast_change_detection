@@ -1,4 +1,4 @@
-// Copyright 2017 Emanuele Palazzolo (emanuele.palazzolo@uni-bonn.de)
+// Copyright 2017 Emanuele Palazzolo (emanuele.palazzolo@uni-bonn.de), Cyrill Stachniss, University of Bonn
 #include "fastcd/image.h"
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/imgproc/imgproc.hpp>

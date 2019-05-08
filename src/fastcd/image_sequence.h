@@ -1,4 +1,4 @@
-// Copyright 2017 Emanuele Palazzolo (emanuele.palazzolo@uni-bonn.de)
+// Copyright 2017 Emanuele Palazzolo (emanuele.palazzolo@uni-bonn.de), Cyrill Stachniss, University of Bonn
 #pragma once
 #include <deque>
 #include <memory>

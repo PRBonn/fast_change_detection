@@ -1,4 +1,4 @@
-// Copyright 2017 Jens Behley (jens.behley@igg.uni-bonn.de)
+// Copyright 2017 Jens Behley (jens.behley@igg.uni-bonn.de), Cyrill Stachniss, University of Bonn
 #include "utils/obj_reader.h"
 #include <fstream>
 #include <boost/filesystem.hpp>

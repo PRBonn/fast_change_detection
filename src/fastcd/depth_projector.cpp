@@ -1,4 +1,4 @@
-// Copyright 2017 Jens Behley (jens.behley@igg.uni-bonn.de)
+// Copyright 2017 Jens Behley (jens.behley@igg.uni-bonn.de), Cyrill Stachniss, University of Bonn
 #include "fastcd/depth_projector.h"
 #include "fastcd/mesh.h"
 

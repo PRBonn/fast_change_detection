@@ -1,5 +1,4 @@
-// Copyright 2017 Jens Behley (jens.behley@igg.uni-bonn.de)
-//                Emanuele Palazzolo (emanuele.palazzolo@uni-bonn.de)
+// Copyright 2017 Jens Behley (jens.behley@igg.uni-bonn.de), Emanuele Palazzolo (emanuele.palazzolo@uni-bonn.de), , Cyrill Stachniss, University of Bonn
 #pragma once
 
 #include <vector>

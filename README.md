@@ -138,3 +138,7 @@ Rotate the view with the mouse while the right button is pressed. The keyboard i
 ## License
 
 This project is licensed under the FreeBSD License. See the LICENSE.txt file for details.
+
+## Acknowledgments
+
+This work has partly been supported by the DFG under the grant number FOR~1505: Mapping on Demand.
